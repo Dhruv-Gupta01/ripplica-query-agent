@@ -73,14 +73,6 @@ Axios for API communication
 CSS for styling
 
 
-📸 Demo Screenshot
-![Demo Screenshot](client/public/demo.png)
-
-
-📹 Demo Video
-
-(Insert Loom or YouTube link after uploading)
-
 
 👨‍💻 Author
 
