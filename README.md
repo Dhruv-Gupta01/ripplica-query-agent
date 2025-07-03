@@ -75,7 +75,7 @@ CSS for styling
 
 📸 Demo Screenshot
 
-(Insert screenshot of frontend summary display here)
+<img width="616" alt="Screenshot 2025-07-03 at 11 27 45 AM" src="https://github.com/user-attachments/assets/a4def57a-d584-4fe3-9e9a-0f896c1162ea" />
 
 
 📹 Demo Video
