@@ -16,7 +16,7 @@ An AI-powered full-stack web query agent that fetches and summarizes web results
 ---
 
 
-## 🚀 Flowchar
+## 🚀 Flowchart
 
          ┌────────────┐
          │ User Query │
@@ -25,24 +25,24 @@ An AI-powered full-stack web query agent that fetches and summarizes web results
         [ Query Classifier ]
          └─────┬──────┘
                ↓
-     ┌────────────────────┐
-     │ Embedding Generator│  ← (uses transformers)
-     └─────┬──────┬───────┘
-           │      │
-           ↓      ↓
-  [ Vector Similarity Check ] ← Past Queries in MongoDB
-           │
-   ┌───────┴───────┐
-   │ Match Found?  │─────▶ Return Cached Summary
-   └───────┬───────┘
-           ↓ No
-   [ Playwright Web Scraper ]
-           ↓
-   [ AI Summarizer via LLaMA ]
-           ↓
-   [ Store Summary + Embedding in DB ]
-           ↓
-   Return Final Summary to User
+              ┌────────────────────┐
+              │ Embedding Generator│  ← (uses transformers)
+              └─────┬──────┬───────┘
+                    │      │
+                    ↓      ↓
+           [ Vector Similarity Check ] ← Past Queries in MongoDB
+                    │
+            ┌───────┴───────┐
+            │ Match Found?  │─────▶ Return Cached Summary
+            └───────┬───────┘
+                    ↓ No
+            [ Playwright Web Scraper ]
+                    ↓
+            [ AI Summarizer via LLaMA ]
+                    ↓
+            [ Store Summary + Embedding in DB ]
+                    ↓
+            Return Final Summary to User
 
 
 
